@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+  color: #1f2937;
+}
+
+header {
+   background: url('class.jpg') no-repeat center center/cover;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+header img {
+  height: 100px;
+}
+
+.contact {
+  text-align: right;
+}
+
+.hero {
+ 
+  position: relative;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero .overlay {
+  background-color: rgba(15, 118, 110, 0.8);
+  padding: 40px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.hero h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.section {
+  padding: 30px 20px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  max-width: 1000px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+.section h3 {
+  font-size: 24px;
+  color: #0f766e;
+  margin-bottom: 15px;
+}
+
+.section ul {
+  padding-left: 20px;
+}
+
+.subjects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #0d4b45;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+}
+
+.form-section {
+  max-width: 1000px;
+  margin: 0 auto 40px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  border-color: #0f766e;
+  outline: none;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #0f766e;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #115e59;
+}
